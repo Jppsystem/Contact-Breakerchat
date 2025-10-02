@@ -6,6 +6,11 @@ body {
     padding: 0;
     margin: 0;
 }
+h1 {
+    text-align: center;
+    color: purple;
+    margin-top: 20px;
+}
 .barre-recherche input {
     border: none;
     outline: none;
@@ -22,6 +27,12 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 20px 0;
+    border: none;
+    background-color: #764ba2;
+    padding: 20px 40px;
+    border-radius: 30px;
+    margin: 60px;
+
 }
 .contact-image {
     width: 100px;
