@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: #10367D;
 }
 .container {
     background: #fff;
@@ -45,13 +45,13 @@ input {
     transition: border 0.3s ease;
 }
 input:focus {
-    border: 1px solid #764ba2;
+    border: 1px solid #10367D;
 }
 
 .btn {
     width: 100%;
     padding: 12px;
-    background-color: #fc0ef0;
+    background-color: #10367D;
     color: white;
     border: none;
     border-radius: 8px;
@@ -61,7 +61,7 @@ input:focus {
 }
 
 .btn:hover {
-    background-color: #764ba2;
+    background-color: #A5CE00;
 }
 a.btn {
     text-align: center;
