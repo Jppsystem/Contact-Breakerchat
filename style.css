@@ -78,6 +78,11 @@ body a:hover {
     color: #EBEBEB;
     margin-top: 20px;
 }
+.filters button:hover {
+    background: #106;
+    color: #EBEBEB;
+    transition: background 0.3s ease;
+}
 
 /*Conatcts list*/
 .contacts-list {
