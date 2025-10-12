@@ -70,3 +70,81 @@ a.btn {
     line-height: normal;
     margin-top: 10px;
 }
+/* Responsive design */
+
+/* Appareils supérieurs à 728px */
+@media (min-width: 729px) {
+    body {
+        margin: 20px;
+    }
+    .container {
+        max-width: 400px;
+        margin: 40px auto;
+        padding: 40px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+}
+
+/* Appareils en dessous de 728px */
+@media (max-width: 728px) {
+    body {
+        margin: 20px;
+    }
+    .container {
+        max-width: 95vw;
+        padding: 24px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    .btn {
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+
+/* Appareils en dessous de 425px */
+@media (max-width: 425px) {
+    body {
+        margin: 20px;
+    }
+    .container {
+        padding: 20px;
+        border-radius: 10px;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    input {
+        padding: 10px;
+        font-size: 0.95em;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+/* Appareils en dessous de 390px */
+@media (max-width: 390px) {
+    body {
+        margin: 20px;
+    }
+    .container {
+        padding: 20px;
+        border-radius: 6px;
+    }
+    h1 {
+        font-size: 16px;
+    }
+    input {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+    .btn {
+        font-size: 13px;
+        padding: 10px;
+    }
+}

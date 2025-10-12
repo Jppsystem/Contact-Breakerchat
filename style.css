@@ -58,7 +58,19 @@ body a:hover {
     font-size: 1em;
     transition: border-color 0.3s ease;
 }
-
+.search-input-wrap {
+    position: relative;
+    width: 100%;
+}
+.search-img {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+}
 .filters {
     display: flex;
     gap: 10px;
@@ -147,3 +159,11 @@ body a:hover {
     min-width: 24px;
     text-align: center;
 }
+.ajout {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    color: #fff;
+}
+/*<button class="btn" id="btn-add-contact">*/

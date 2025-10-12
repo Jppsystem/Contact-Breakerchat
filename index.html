@@ -11,16 +11,17 @@
 <body>
     <header class="site-header">
         <div class="logo">Breakerchat</div>
-        <button class="btn" id="btn-add-contact"><a href="contact.html"><img src="IMG/add (3).png" alt="Ajout contact" width="40"></a></button>
     </header>
-
     <main class="contacts-page">
         <section class="search-wrap">
-            <input type="search" placeholder="Rechercher un contact..." class="search-input" id="contact-search" aria-label="Rechercher contacts">
+            <div class="search-input-wrap">
+                <input type="text" placeholder="Rechercher un contact..." class="search-input" id="contact-search" aria-label="Rechercher contacts">
+                <img src="IMG/search (2).png" alt="search" class="search-img">
+            </div>
             <div class="filters">
                 <button class="active" data-filter="all">Tous</button>
                 <button class="active" data-filter="online">En ligne</button>
-                <button class="active" data-filter="favorites">Favoris</button>
+                <button class="active" data-filter="favorites">Groupes</button>
             </div>
         </section>
 
@@ -54,6 +55,8 @@
             </li>
         </ul>
     </main>
-    <button class="btn" id="btn-add-contact"><a href="contact.html"><img src="IMG/add (3).png" alt="Ajout contact" width="40"></a></button>
+    <div class="ajout">
+        <a href="contact.html"><img src="IMG/add (4).png" alt="Ajout contact"></a>
+    </div>
 </body>
 </html>
